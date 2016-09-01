@@ -1,10 +1,13 @@
 /* Base Application Styles */
+body {
+  font-family: Microsoft JhengHei;
+}
+
 ul li {
   width: 50%;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  font-family: Microsoft JhengHei;
   letter-spacing: 2px
 }
 
@@ -34,7 +37,6 @@ input[type="checkbox"]{
   text-indent: 20px;
   line-height: 35px;
   font-size: 28px;
-  font-family: Microsoft JhengHei;
   letter-spacing: 1px;
 }
 
@@ -44,4 +46,33 @@ input[type="checkbox"]{
   margin-left: 10px;
   margin-right: 5px;
   font-size: 35px
+}
+
+.guest-table {
+  border: black solid 1px;
+  text-align: center;
+}
+
+.guest-table .table-inline {
+  line-height: 25px
+}
+
+.guest-table .table-inline .tableNum{
+  font-size: 23px;
+  font-weight: bolder;
+  color: white;
+}
+
+.guest-table .table-inline .current{
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
+
+.guest-table.not-full{
+  background: #19dd19;
+}
+
+.guest-table.is-full{
+  background: #eb7c7c;
 }
