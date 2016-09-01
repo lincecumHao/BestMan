@@ -15,7 +15,7 @@
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "serve": "node server.js --env=dev",
     "serve:dist": "node server.js --env=dist",
-    "start": "node server.js --env=dev",
+    "start": "webpack-dev-server --hot",
     "test": "karma start",
     "test:watch": "karma start --autoWatch=true --singleRun=false"
   },
@@ -54,7 +54,9 @@
     "open": "0.0.5",
     "phantomjs-prebuilt": "^2.0.0",
     "react-addons-test-utils": "^15.0.0",
+    "react-bootstrap": "^0.30.3",
     "react-hot-loader": "^1.2.9",
+    "react-select": "^1.0.0-beta14",
     "rimraf": "^2.4.3",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.6",
