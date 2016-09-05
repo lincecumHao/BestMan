@@ -70,7 +70,7 @@ input[type="checkbox"]{
 }
 
 .guest-table.not-full{
-  background: #19dd19;
+  background: gray;
 }
 
 .guest-table.is-full{

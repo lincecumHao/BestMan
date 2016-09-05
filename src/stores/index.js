@@ -1,5 +1,5 @@
 const redux = require('redux');
-const reducers = require('../reducers');
+const reducers = require('../reducers').default;;
 
 module.exports = function(initialState) {
   const store = redux.createStore(reducers, initialState)
